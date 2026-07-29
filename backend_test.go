@@ -154,7 +154,7 @@ func newIntegrationTestEnv(testURL string) (*testEnv, error) {
 	return &testEnv{
 		SecretId:  "fizz",
 		SecretKey: "buzz",
-		RoleARN:   "acs:ram::5138828231865461:role/hastrustedactors",
+		RoleARN:   "qcs::cam::uin/5138828231865461:roleName/hastrustedactors",
 		Backend:   b,
 		Context:   ctx,
 		Storage:   &logical.InmemStorage{},
